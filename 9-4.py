@@ -28,7 +28,7 @@ x, k = map(int, input().split())
 
 for k in range(1, n+1):
     for a in range(1, n+1):
-        for b in range(1, n+1):
+        for b in range(1, n+1): 
             graph[a][b] = min(graph[a][b], graph[a][k]+graph[k][b])
 
 ## start node = 1, 거쳐가는 노드 x, 최종 노드 k
