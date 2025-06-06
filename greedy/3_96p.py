@@ -1,3 +1,7 @@
+'''
+그리디 알고리즘
+무난히 패스
+'''
 import sys
 input = sys.stdin.readline
 
